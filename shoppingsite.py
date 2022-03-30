@@ -96,7 +96,7 @@ def add_to_cart(melon_id):
 
     cart[melon_id] = cart.get(melon_id, 0) + 1
     
-    flash(f"You have sucessfully added {melon_id} to your cart!")
+    flash("You have sucessfully added a melon to your cart!")
     # The logic here should be something like:
     #
     # - check if a "cart" exists in the session, and create one (an empty
