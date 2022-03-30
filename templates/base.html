@@ -30,6 +30,11 @@
       {% endfor %}
   {% endwith %}
 
+  {% if session %}
+  <label>Flask Session</label>
+  {{  session  }}
+  {% endif %}
+
   <!-- This is where the main content goes. -->
   {% block body %}
       BODY OF PAGE GOES HERE VIA INHERITANCE
